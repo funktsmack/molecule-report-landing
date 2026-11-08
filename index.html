@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Molecule Report — The signals behind the next generation of energy projects</title>
+<meta name="description" content="A weekly briefing on hydrogen, ammonia, e-fuels, and carbon capture. Live project tracker, daily news digest, and analysis for engineers and developers.">
+<style>
+  :root {
+    --navy: #0B2545;
+    --teal-dark: #0F3D3A;
+    --teal: #58C9B9;
+    --cream: #EDEAE2;
+    --offwhite: #F2EFE6;
+    --text-dark: #1C2B2B;
+    --text-muted: #6B6457;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-dark);
+    background: var(--cream);
+    line-height: 1.6;
+  }
+  h1, h2, h3, .serif { font-family: Georgia, 'Times New Roman', serif; }
+  a { color: var(--teal-dark); }
+  img { max-width: 100%; display: block; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+  header.topbar {
+    background: var(--navy);
+    padding: 18px 0;
+  }
+  header.topbar .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header.topbar img.logo { height: 56px; width: auto; }
+  nav a {
+    color: var(--offwhite);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 24px;
+  }
+  nav a:hover { text-decoration: underline; }
+
+  .hero {
+    padding: 72px 0 56px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 40px;
+    color: var(--navy);
+    line-height: 1.25;
+    max-width: 760px;
+    margin: 0 auto 20px;
+  }
+  .hero p {
+    font-size: 17px;
+    color: var(--text-muted);
+    max-width: 620px;
+    margin: 0 auto 32px;
+  }
+  .btn {
+    display: inline-block;
+    background: var(--teal-dark);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 14px 32px;
+    border-radius: 6px;
+  }
+  .btn:hover { background: var(--navy); }
+  .btn-outline {
+    display: inline-block;
+    background: #fff;
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 13px 30px;
+    border-radius: 6px;
+    border: 1px solid var(--navy);
+    margin-left: 12px;
+  }
+
+  section.content {
+    background: #fff;
+    border-radius: 12px;
+    padding: 48px;
+    margin-bottom: 40px;
+  }
+  section.content h2 {
+    font-size: 28px;
+    color: var(--navy);
+    margin-bottom: 14px;
+  }
+  section.content p.lead {
+    color: var(--text-muted);
+    font-size: 15.5px;
+    margin-bottom: 28px;
+    max-width: 640px;
+  }
+  .split {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .split .text { flex: 1 1 360px; }
+  .split .media { flex: 1 1 320px; }
+  .split .media img { border-radius: 10px; }
+
+  ul.features {
+    list-style: none;
+    margin-top: 20px;
+  }
+  ul.features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 0;
+    font-size: 15px;
+  }
+  ul.features li .check {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: 2px;
+  }
+
+  .signup-box {
+    background: var(--navy);
+    border-radius: 12px;
+    padding: 48px;
+    text-align: center;
+    color: var(--offwhite);
+    margin-bottom: 40px;
+  }
+  .signup-box h2 {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .signup-box p {
+    color: #CBD6DC;
+    font-size: 15px;
+    margin-bottom: 26px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 32px 0 48px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  footer .legal a {
+    color: var(--text-muted);
+    margin: 0 8px;
+  }
+  footer .company {
+    margin-top: 10px;
+  }
+
+  @media (max-width: 640px) {
+    .hero h1 { font-size: 30px; }
+    section.content { padding: 28px; }
+    .btn-outline { display: block; margin: 14px auto 0; width: fit-content; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <img class="logo" src="assets/logo-band.png" alt="The Molecule Report">
+    <nav>
+      <a href="#signup">Subscribe</a>
+      <a href="https://airtable.com/appNhUQw09HMG0m9h/shrtsJY0G3Fte1U34">Project Tracker</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="hero">
+    <h1>The signals behind the next generation of energy projects</h1>
+    <p>A weekly briefing on hydrogen, ammonia, e-fuels, and carbon capture. We track FID trackers, hub applications, shipping-class filings, and vendor spec sheets for technical and commercial teams.</p>
+    <a class="btn" href="#signup">Subscribe free</a>
+    <a class="btn-outline" href="#inside">See what's inside</a>
+  </section>
+
+  <section class="content" id="inside">
+    <div class="split">
+      <div class="text">
+        <h2>From project data to practical context</h2>
+        <p class="lead">The Molecule Report brings together developments that matter to engineers, project developers, consultants, and service companies. Follow a live tracker of 60+ projects, scan a daily news digest, and find focused analysis relevant to FEED studies, offtake agreements, and EPC bids.</p>
+      </div>
+      <div class="media">
+        <img src="assets/hero-tank.jpg" alt="Industrial storage tank illustration">
+      </div>
+    </div>
+  </section>
+
+  <section class="content">
+    <h2>What subscribers get</h2>
+    <p class="lead">A structured view of the industry, from project activity to the information professionals can use in their work.</p>
+    <ul class="features">
+      <li><span class="check">&#10003;</span> <strong>Project Tracker</strong>&nbsp;— 60+ projects, updated weekly</li>
+      <li><span class="check">&#10003;</span> <strong>Byte Sized News</strong>&nbsp;— daily industry digest</li>
+      <li><span class="check">&#10003;</span> <strong>Molecule Finds</strong>&nbsp;— curated reads</li>
+      <li><span class="check">&#10003;</span> <strong>Leverage This</strong>&nbsp;— strategic analysis for developers, consultants &amp; service companies</li>
+      <li><span class="check">&#10003;</span> <strong>Upcoming Events</strong>&nbsp;— conferences worth your calendar</li>
+    </ul>
+    <div style="margin-top: 28px;">
+      <img src="assets/network-nodes.jpg" alt="Network of tracked projects" style="border-radius: 10px;">
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="split">
+      <div class="media">
+        <img src="assets/ccus-arrow.jpg" alt="Carbon capture flow illustration">
+      </div>
+      <div class="text">
+        <h2>Built for the people doing the work</h2>
+        <p class="lead">Whether you're writing the FEED study, negotiating the offtake agreement, or scoping the EPC bid — The Molecule Report gives you the week's signal, not the noise.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="signup-box" id="signup">
+    <h2>Stay current on the molecule economy</h2>
+    <p>Get the weekly briefing on project developments, technical signals, and market activity. Free to subscribe; unsubscribe at any time.</p>
+    <a class="btn" href="https://flow.cleverreach.com/fl/b4d0ad18-545d-4024-93da-cdb6f20a4afd/">Subscribe free</a>
+  </section>
+
+</div>
+
+<footer>
+  <div class="legal">
+    <a href="impressum.html">Impressum</a>·
+    <a href="datenschutz.html">Datenschutz</a>
+  </div>
+  <div class="company">
+    [Your Name] · [Street Address, PLZ City], Germany · [Your Email]
+  </div>
+</footer>
+
+</body>
+</html>
